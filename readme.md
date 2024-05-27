@@ -1,8 +1,11 @@
 # IonGen: An organic ion generator
 
-IonGen is a repository for generating de novo organic ions. Please cite:
+IonGen is a repository for generating de novo organic ions utilizing a combination of Monte Carlo tree search and recurrent neural network techniques
 
-### Install envirement:
+## Usage
+
+### Installation:
+Clone the repository and install the required packages:
 ```shell
 conda create -n IonGen python=3.8
 conda activate IonGen
@@ -21,3 +24,21 @@ python gen_cations.py
 python gen_anons.py
 ```
 
+### Generated ions:
+
+Datasets of 1 million generated cations and 1 million generated anions are avaliable under generated_ions
+
+
+## Reference
+
+If you find the code useful for your research, please consider citing
+
+```
+@inproceedings{Mengyang_2024_IonGen,
+  author       = {Mengyang Qu, Gyanendra Sharma, Naoki Wada, Hisaki Ikebata, Shigeyuki Matsunami and Kenji Takahashi},
+  title        = {Machine Learning-Driven Generation and Screening of Potential Ionic Liquids for Cellulose Dissolution},
+  year         = 2024,
+  publisher    = {},
+  howpublished = {},
+}
+```
