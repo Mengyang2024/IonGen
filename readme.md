@@ -1,6 +1,7 @@
 # IonGen: An organic ion generator
 
 IonGen is a repository for generating de novo organic ions utilizing a combination of Monte Carlo tree search and recurrent neural network techniques
+![image](https://github.com/Mengyangjp/IonGen/assets/127812221/a9abe528-16c9-441c-9e7c-7f82299f2020)
 
 ## Usage
 
