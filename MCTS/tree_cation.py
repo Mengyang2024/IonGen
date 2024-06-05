@@ -132,7 +132,8 @@ class BuildTree:
         for child in input_node.children:
             node_SMILES_dict[child] = []
             with get_context("spawn").Pool(10) as pool1:
-                node_SMILES_dict[child] = pool1.map(rollout_policy, [child.current_smiles for _ in range(10)])
+                smi = child.current_smiles.copy()
+                node_SMILES_dict[child] = pool1.map(rollout_policy, [smi for _ in range(10)])
             print('generate cations %s'%node_SMILES_dict[child])
         score_dict, cations = reward_score(node_SMILES_dict, stock)
         with open(path_to_store_cations, 'a') as file1:
