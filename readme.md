@@ -27,7 +27,7 @@ python gen_anons.py
 
 ### Generated ions:
 
-Virtual molecular library of 1 million generated cations and 1 million generated anions, named IonGen_1M, can be found at this link: https://figshare.com/articles/dataset/IonGen_1M/25907677
+Virtual molecular library of 1 million generated cations and 1 million generated anions, named IonGen_1M, can be found at this link: https://figshare.com/articles/dataset/IonGen_1M/26343901
 
 ## Reference
 
